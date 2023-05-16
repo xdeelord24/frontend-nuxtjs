@@ -1,0 +1,40 @@
+{
+    "name": "gio-system",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxt/http": "^0.6.4",
+        "@nuxtjs/auth-next": "5.0.0-1648802546.c9880dc",
+        "@nuxtjs/axios": "^5.13.6",
+        "@nuxtjs/proxy": "^2.1.0",
+        "activedirectory2": "^2.1.0",
+        "core-js": "^3.25.3",
+        "cors": "^2.8.5",
+        "dtrace-provider": "^0.8.8",
+        "express": "^4.18.2",
+        "jsqr": "^1.4.0",
+        "ldapjs": "^2.3.3",
+        "net": "^1.0.2",
+        "nuxt": "^2.15.8",
+        "nuxt-socket-io": "^3.0.12",
+        "pdfmake": "^0.2.6",
+        "qrcode": "^1.5.1",
+        "socket.io": "^4.6.1",
+        "tls": "^0.0.1",
+        "vue": "^2.7.10",
+        "vue-server-renderer": "^2.7.10",
+        "vue-template-compiler": "^2.7.10",
+        "vuetify": "^2.6.10"
+    },
+    "devDependencies": {
+        "@mdi/font": "^7.0.96",
+        "@nuxtjs/fontawesome": "^1.1.2",
+        "@nuxtjs/vuetify": "^1.12.3"
+    }
+}
